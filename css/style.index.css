@@ -1,0 +1,78 @@
+@charset"utf-8"
+
+.wrapper{
+	  font-family: "微軟正黑體", Arial;
+      margin: auto;  /*網頁居中設定*/
+      width: 1280px;
+      }
+
+body{
+    background-color:#f5f5f5; 
+    width: 100%;
+}
+
+.header {
+	  background-color: #fff;
+      background-size: 100% 220px; 
+        }
+
+#site-logo {
+    margin-left: auto;
+    margin-right: auto;
+}        
+
+.nav {
+      background-color: #fff;
+      background-size: 100% 220px; 
+        }
+
+#button {
+        /*文字設定*/
+        font-family: "微軟正黑體", verdana;
+        font-weight:200;
+        color: #555555;
+        font-size: 16px;
+
+        /*將內定的邊距清除*/
+        margin: 0px;
+
+        /*將清單內定的內距清除(無清除，則左側會多出約40px，範例二可不用加這一項*/
+        padding:0px;
+        
+        }
+     
+#button li {    
+        /* 讓各個清單元素靠左對齊，由原本的垂直排列變成水平排列，形成水平清單 */    
+        float: left;
+        /* 去除清單文字前面的小點*/
+        list-style-type: none;
+        /* 讓清單文字居中對齊 */
+        letter-spacing: 1px;
+        border-left-width: 1px;
+        padding-left: 30px;
+}
+                
+#button li a {
+   　   display: block;
+        width: 169px;
+        height: 22px;
+        padding-top:2px;
+        color: #555555;
+        text-decoration: none;
+}
+
+#button li a:hover{
+　　 /* 設定滑鼠移過時，改變文字顏色的設定 */
+        color: #7CCBDC;
+        font-weight:500;
+}
+
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
