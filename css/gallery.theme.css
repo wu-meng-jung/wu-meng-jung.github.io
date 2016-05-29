@@ -15,10 +15,11 @@
   position: relative;
 }
 .gallery .item {
-  height: 400px;
+  width: 1170px;
+  height: 600px;
   overflow: hidden;
   text-align: center;
-  background: #d1fffe;
+  background: #f5f5f5;
 }
 .gallery .controls {
   position: absolute;
@@ -29,7 +30,7 @@
 .gallery .control-button {
   display: inline-block;
   margin: 0 .02em;
-  font-size: 3em;
+  font-size: 5em;
   text-align: center;
   text-decoration: none;
   transition: color .1s;

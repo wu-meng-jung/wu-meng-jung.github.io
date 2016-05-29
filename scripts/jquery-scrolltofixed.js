@@ -564,4 +564,4 @@
             (new $.ScrollToFixed(this, options));
         });
     };
-})(jQuery);
+});
