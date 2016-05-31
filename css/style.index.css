@@ -39,6 +39,7 @@
     width: 382px;
     margin: 0 auto;
     padding-top:20px;
+    padding-left:30px;
     padding-bottom:10px;
 }        
 
@@ -138,13 +139,16 @@ img {
 
 h2{
     color:;
+    line-height:
+    font-size:300%;
     text-align: center; 
-    font-size:250%;
     margin-bottom:0;
 }
 
-h3{
-  font-size:150%;
+.about-descrption{
+  font-family: "微軟正黑體", verdana, ;
+
+
 }
 
 #about{
@@ -153,9 +157,26 @@ h3{
     
 }
 
+#resume{
+    color: #92b055;
+    border: #92b055 2px solid;
+    padding: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center; 
 
+}
 
+a{
+  text-decoration: none;
+  color: #92b055;
+  
+}
 
+div#blog figure { 
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 0;
 
-
-
+}
