@@ -8,8 +8,6 @@
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 <!-- add css -->
   <link rel="stylesheet" href="css/style.index.css" media="all">
-  <link rel="stylesheet" href="css/gallery.theme.css">
-  <link rel="stylesheet" href="css/gallery.prefixed.css">
 <!-- add js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
   <script src="scripts/jquery-scrolltofixed.js" type="text/javascript"></script>
@@ -18,13 +16,15 @@
 
  <body>
   <div class="wrapper">
-    <div class="header" width="1280px" height="200px">
+
+<!-- header -->
+    <div class="header">
       <div id="site-logo">
-            <a href="http://wu-meng-jung.github.io/" rel="home"><img src="images/wp-header.jpg" width="382px" height="156" alt="wu-meng-jung" scale="0"></a>
+            <a href="http://wu-meng-jung.github.io/" rel="home"><img src="images/wp-header.jpg" max-width="382px" height="156" alt="wu-meng-jung" scale="0"></a>
           </div>
     </div>
 
-    <div class="nav" width="100%;" height="60px" >
+    <div class="nav">
     <ul id=button>
       <li><a href="work.html">WORK</a></li>
       <li><a href="about.html">ABOUT</a></li>
@@ -34,52 +34,41 @@
     </ul>
     </div>
 
-<!-- gallery start -->
-  <div class="gallery autoplay items-3">
-  <div id="item-1" class="control-operator"></div>
-  <div id="item-2" class="control-operator"></div>
-  <div id="item-3" class="control-operator"></div>
-  <figure class="item">
-    <img src="images/gallery-item-test.jpg"  width="1170px" height="600px" alt="">
-  </figure>
-
-  <figure class="item">
-   <img src="images/gallery-item-test.jpg"  width="1170px" height="600px" alt="">
-  </figure>
-
-  <figure class="item">
-    <img src="images/gallery-item-test.jpg"  width="1170px" height="600px" alt="">
-  </figure>
-
-  <div class="controls">
-    <a href="#item-1" class="control-button">•</a>
-    <a href="#item-2" class="control-button">•</a>
-    <a href="#item-3" class="control-button">•</a>
-  </div>
+<!-- slider start -->
+<base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
+<div id="slider">
+<figure>
+<img src="austin-fireworks.jpg" alt>
+<img src="taj-mahal_copy.jpg" alt>
+<img src="ibiza.jpg" alt>
+<img src="ankor-wat.jpg" alt>
+<img src="austin-fireworks.jpg" alt>
+</figure>
 </div>
 
- <!-- gallery end -->
 
-
-    <div class="content">
-     <h2>Hello</h2>
-     <p>
-     
-     </p>
-    </div>
+<!-- content -->
+<div class="content-about">
+ <img sre="images/about.jpg"  max-width="1024px" alt="about">
+ <h2>Hello</h2>
+ <p>
+ This is MzJ, from Taiwan. I major in Graphic Design, I'm also a illustrator and self-taught Web Designer.I put my works here and hope you like. them.<br/>
+ 大学を卒業した後、台湾の出版社で4年間グラフィックデザイナーとして働いていましたので、イラストレーター、フォトショップ、インデザインを使用したDTPの実務経験があります。自分の経験を活かしつつ新しい事も学びたいですし、現在独学中のHTML、CSSも身に付けたいです。デザインする事が好きなので、自分の好きな日本の地で自分の好きな仕事に携わる事ができたら嬉しいです。まだまだ未熟者ですが、一つ一つの仕事に責任持って丁寧に覚えて行きますので、よろしくお願い致します。
+ </p>
+</div>
 
      <div id="footer">
      	
      </div>
-</div>
+    </div>
 
 
   
  	
-
-
-
-
+</div>
 
  </body>
+<!-- メインコンテンツ終了 -->
+
+
  </html>
